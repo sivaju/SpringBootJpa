@@ -46,7 +46,7 @@ public class ResarvationEventController
      }
 
     //To cancle a Ticket
-    @RequestMapping("/cancle")
+    @RequestMapping("/cancles")
      public void cancleTicket()
      {
         eventRepository.delete(4568l);
